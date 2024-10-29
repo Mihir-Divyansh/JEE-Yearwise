@@ -1,5 +1,5 @@
 # You thought it was over? Part II
-
+> Deprecated info
 > Using github without command line for pull requests is fine (but discouraged), though, creating unnecessarily many commits will be awarded -ve marks.
 
   I mean, surely you didn't. Of course there are more steps to getting your marks than mere human approval. Of course there are.
