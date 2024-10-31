@@ -1,0 +1,48 @@
+\iffalse
+    \title{2020}
+    \author{EE24BTECH11001}
+    \section{integer}
+\fi 
+\item An urn contains 5 red marbles, 4 black marbles and 3 white marbles. Then the number of ways in which 4
+	marbles can be drawn so that at most three of the are red is.
+		\hfill{\brak{2020-Jan}}
+\\
+	\item Let the normal at a point $P$ on the curve $y^2 - 3x^2 + y + 10 = 0$ intersect the y-axis at 
+		$\brak{0, \frac{3}{2}}$. If $m$ is the slope of the tangent at $P$ to the curve, te $\abs{m}$ is equal to
+		\hfill{\brak{2020-Jan}}
+		\begin{figure}[ht]
+		\centering
+		\begin{tikzpicture}
+   			\draw[black, thick] (-5, 0) -- (5, 0) node[right] {$x$};
+			\draw[black, thick] (0, -5) -- (0, 5) node[above] {$y$};
+			\draw[domain=-3.5:-1.8027757,smooth,variable=\x,black] plot ({\x},{(-1 + sqrt(1 + 12*(\x)^2 - 40))/2});
+			\draw[domain=-3.5:-1.8027757,smooth,variable=\x,black] plot ({\x},{(-1 - sqrt(1 + 12*(\x)^2 - 40))/2});
+			\draw[domain=1.8027757:3.5,smooth,variable=\x,black] plot ({\x},{(-1 + sqrt(1 + 12*(\x)^2 - 40))/2});
+			\draw[domain=1.8027757:3.5,smooth,variable=\x,black] plot ({\x},{(-1 - sqrt(1 + 12*(\x)^2 - 40))/2});
+    			\draw[black, thick, domain=0.5:3, samples=100]
+				plot ({\x}, {4 * (\x) - 7});
+    			\draw[black, thick, domain=-3:6, samples=100]
+				plot ({\x}, {-0.25 * (\x) + 1.5});
+    			\fill[black] (2, 1) circle (3pt) node[left] {\small $(2, 1)$};
+			\fill[black] (0, 1.5) circle (3pt) node[above] {\small $(0, \frac{3}{2})$};
+		\end{tikzpicture}
+		\end{figure}
+\\	
+	\item The least positive value of $'a'$ for which the equation
+	\begin{align}
+		2x^2 + \brak{a - 10}x + \frac{33}{2} = 2a
+	\end{align} has real roots is
+		\hfill{\brak{2020-Jan}}
+\\
+	\item The sum
+	\begin{align}
+		\sum_{k = 1}^{20} \brak{1 + 2 + 3 + \dots + k}
+	\end{align} is
+		\hfill{\brak{2020-Jan}}
+\\
+	\item The number of all 3 $\times$ 3 matrices $A$, with entries from the set $\{-1, 0 , 1\}$, such that the sum
+	of the diagonal elements of $\brak{AA^\top}$ is 3, is
+		\hfill{\brak{2020-Jan}}
+	
+
+
