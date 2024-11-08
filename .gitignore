@@ -9,5 +9,5 @@ JEE/zchapters/*
 pdfsrc/__pycache__
 check_pull.txt
 automerge/
-JEE-yearwise/years/
+JEE-yearwise/years/*
 .DS_Store
