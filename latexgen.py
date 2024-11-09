@@ -77,6 +77,7 @@ def main():
     # years = get_years_list(settings, style)
     try:
         chapters = get_latex_files(chapters, style, settings)
+        print(chapters)
         # years = get_latex_years_files(years, style, settings)
         for chapter in chapters:
             chapters[chapter].compile()
